@@ -1,35 +1,3 @@
-📂 Project Structure
-python
-Copy code
-365scores/
-├── app
-│   ├── app.py               # Flask app serving web content
-│   └── scriptapp.py         # Supporting scripts
-├── backend.tf               # Backend configuration (e.g., remote state)
-├── data.tf                  # Data sources (e.g., Route 53 zones)
-├── main.tf                  # Main Terraform configuration
-├── modules
-│   ├── ec2                 # EC2 module
-│   │   ├── main.tf
-│   │   ├── output.tf
-│   │   └── variables.tf
-│   ├── elb                 # ALB module
-│   │   ├── main.tf
-│   │   ├── output.tf
-│   │   └── variables.tf
-│   ├── security_groups     # Security Groups module
-│   │   ├── main.tf
-│   │   ├── output.tf
-│   │   └── variables.tf
-│   └── vpc                 # VPC module
-│       ├── data.tf
-│       ├── main.tf
-│       ├── output.tf
-│       └── variables.tf
-├── my_archive.zip           # Archived app files
-├── output.tf                # Outputs for infrastructure resources
-├── providers.tf             # Providers (e.g., AWS)
-└── variables.tf             # Global variables
 
 
 🌐 Architecture Overview
